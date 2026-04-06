@@ -1,0 +1,60 @@
+const THEMES = {
+  default: {
+    id: 'default',
+    name: 'Default',
+    primary: '#6C63FF',
+    primaryLight: '#8B85FF',
+    unlockRequirement: null,
+    unlockLabel: 'Default theme',
+  },
+  ocean: {
+    id: 'ocean',
+    name: 'Ocean Blue',
+    primary: '#0077B6',
+    primaryLight: '#00B4D8',
+    unlockRequirement: 7,
+    unlockLabel: '7-day streak',
+  },
+  ember: {
+    id: 'ember',
+    name: 'Ember',
+    primary: '#E63946',
+    primaryLight: '#FF6B6B',
+    unlockRequirement: 14,
+    unlockLabel: '14-day streak',
+  },
+  forest: {
+    id: 'forest',
+    name: 'Forest',
+    primary: '#2D6A4F',
+    primaryLight: '#43E97B',
+    unlockRequirement: 21,
+    unlockLabel: '21-day streak',
+  },
+  gold: {
+    id: 'gold',
+    name: 'Gold Edition',
+    primary: '#D4A017',
+    primaryLight: '#FFD700',
+    unlockRequirement: 30,
+    unlockLabel: '30-day streak',
+  },
+  midnight: {
+    id: 'midnight',
+    name: 'Midnight Purple',
+    primary: '#7B2D8E',
+    primaryLight: '#9B59B6',
+    unlockRequirement: 50,
+    unlockLabel: '50-day streak',
+  },
+  platinum: {
+    id: 'platinum',
+    name: 'Platinum',
+    primary: '#8E8E93',
+    primaryLight: '#C7C7CC',
+    unlockRequirement: 100,
+    unlockLabel: '100-day streak',
+  },
+};
+
+export default THEMES;
