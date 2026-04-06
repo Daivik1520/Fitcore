@@ -1,10 +1,8 @@
-<![CDATA[<div align="center">
+<div align="center">
 
 # 🏋️ FitCore
 
 ### Your Complete Offline Fitness Companion
-
-<img src="./assets/banner.png" alt="FitCore App Preview" width="480" />
 
 <br/>
 
@@ -20,7 +18,7 @@ Track steps, follow guided workout programs, monitor progress, and build lasting
 
 <br/>
 
-[<img src="https://img.shields.io/badge/⬇_DOWNLOAD_APK-6C63FF?style=for-the-badge&logoColor=white" alt="Download" height="42" />](https://expo.dev/accounts/daivikexes-organization/projects/fitcore/builds/220f1229-623c-4a15-a02a-ab13e03ce632)
+[<img src="https://img.shields.io/badge/⬇_DOWNLOAD_APK-6C63FF?style=for-the-badge&logoColor=white" alt="Download APK" height="42" />](https://expo.dev/accounts/daivikexes-organization/projects/fitcore/builds/220f1229-623c-4a15-a02a-ab13e03ce632)
 
 <br/>
 
@@ -32,33 +30,28 @@ Track steps, follow guided workout programs, monitor progress, and build lasting
 
 - [Overview](#-overview)
 - [Key Features](#-key-features)
-- [App Screenshots](#-app-screenshots)
-- [Workout Programs](#-workout-programs)
+- [App Screens](#-app-screens)
+- [Workout Programs](#️-workout-programs)
 - [Exercise Library](#-exercise-library)
-- [Progress Tracking](#-progress-tracking)
 - [Achievement System](#-achievement-system)
+- [Unlockable Themes](#-unlockable-themes)
 - [Privacy & Data](#-privacy--data)
-- [Tech Stack](#-tech-stack)
-- [Architecture](#-architecture)
+- [Tech Stack](#️-tech-stack)
+- [Architecture](#️-architecture)
 - [Getting Started](#-getting-started)
 - [Project Structure](#-project-structure)
 - [Building & Deployment](#-building--deployment)
-- [Contributing](#-contributing)
+- [Design System](#-design-system)
+- [Permissions](#-permissions)
+- [Contact](#-contact)
 
 ---
 
 ## 🌟 Overview
 
-<table>
-<tr>
-<td width="50%">
-
 **FitCore** is a premium, feature-rich fitness tracking application designed to work entirely offline. Built with React Native and Expo, it delivers a native Android experience with a stunning dark-mode interface, guided workout programs, step tracking, and comprehensive progress analytics — all without ever requiring an internet connection or user account.
 
 Every piece of data stays on your device. Always.
-
-</td>
-<td width="50%">
 
 | Stat | Value |
 |:---|:---|
@@ -71,54 +64,21 @@ Every piece of data stays on your device. Always.
 | 🔒 **Privacy** | 100% offline — zero data collection |
 | 💰 **Price** | Completely free, no ads |
 
-</td>
-</tr>
-</table>
-
 ---
 
 ## ✨ Key Features
 
-<table>
-<tr>
-<td align="center" width="25%">
-<br/>
-<img src="https://img.shields.io/badge/🦶-Steps-6C63FF?style=for-the-badge" />
-<br/><br/>
-<b>Step Tracking</b>
-<br/><br/>
+### 🦶 Step Tracking
 Animated progress ring with real-time step counting. Set goals from 4K–15K steps. Weekly bar chart history with calorie, distance, and active time calculations.
-<br/><br/>
-</td>
-<td align="center" width="25%">
-<br/>
-<img src="https://img.shields.io/badge/💪-Workouts-FF6584?style=for-the-badge" />
-<br/><br/>
-<b>Guided Workouts</b>
-<br/><br/>
+
+### 💪 Guided Workouts
 5 structured programs with phased progression. Auto warm-up & cool-down. Smart rest timer with difficulty-based intervals. Haptic feedback on every action.
-<br/><br/>
-</td>
-<td align="center" width="25%">
-<br/>
-<img src="https://img.shields.io/badge/📊-Progress-43E97B?style=for-the-badge" />
-<br/><br/>
-<b>Analytics Suite</b>
-<br/><br/>
+
+### 📊 Analytics Suite
 Body weight line charts, step bar charts, streak calendar, muscle heat map, exercise records, weekly comparison reports, and progressive overload tracking.
-<br/><br/>
-</td>
-<td align="center" width="25%">
-<br/>
-<img src="https://img.shields.io/badge/🔒-Privacy-FFB347?style=for-the-badge" />
-<br/><br/>
-<b>100% Offline</b>
-<br/><br/>
+
+### 🔒 100% Offline
 Zero network requests. No accounts. No tracking. All data stored locally via AsyncStorage. Export as CSV or JSON backup anytime. Your data, your device.
-<br/><br/>
-</td>
-</tr>
-</table>
 
 ---
 
@@ -154,7 +114,7 @@ Zero network requests. No accounts. No tracking. All data stored locally via Asy
 | **Auto Warm-Up** | Every workout starts with a guided warm-up sequence |
 | **Auto Cool-Down** | Stretching routine appended to every workout |
 | **Set Logger** | Rep/hold counter with +/- buttons and haptic feedback |
-| **Smart Rest Timer** | Configurable rest periods (30s/60s/90s/120s) between sets |
+| **Smart Rest Timer** | Configurable rest periods (30s / 60s / 90s / 120s) between sets |
 | **Progress Bar** | Live visual indicator of workout completion |
 | **Workout Timer** | Running clock showing total workout duration |
 | **Exercise Modal** | Long-press any exercise for detailed instructions & tips |
@@ -169,7 +129,7 @@ Zero network requests. No accounts. No tracking. All data stored locally via Asy
 
 | Feature | Description |
 |:---|:---|
-| **Step History** | Bar charts with week/month/3-month views |
+| **Step History** | Bar charts with week / month / 3-month views |
 | **Streak Calendar** | Dual-dot calendar showing workout + step goal days |
 | **Body Weight Chart** | Line chart tracking weight over time with trend indicator |
 | **Exercise Records** | Personal bests for reps/holds across all exercises |
@@ -193,10 +153,10 @@ Zero network requests. No accounts. No tracking. All data stored locally via Asy
 | **BMI Calculator** | Automatic BMI with category indicator |
 | **Achievement Badges** | Grid of 20 badges with progress tracking |
 | **Workout Reminder** | Configurable daily push notification |
-| **Rest Timer Config** | Choose default rest period (30/60/90/120 seconds) |
+| **Rest Timer Config** | Choose default rest period (30 / 60 / 90 / 120 seconds) |
 | **Weight Unit** | Toggle between kg and lbs |
 | **Theme Selector** | 7 color themes unlocked by workout streaks |
-| **JSON Backup** | Full data backup exported as sharable JSON |
+| **JSON Backup** | Full data backup exported as shareable JSON |
 | **CSV Export** | Workout data exported as spreadsheet-compatible CSV |
 | **Data Reset** | Complete data wipe with confirmation dialog |
 
@@ -206,28 +166,12 @@ Zero network requests. No accounts. No tracking. All data stored locally via Asy
 
 ## 📱 App Screens
 
-<table>
-<tr>
-<td align="center"><b>Home</b></td>
-<td align="center"><b>Workout</b></td>
-<td align="center"><b>Progress</b></td>
-<td align="center"><b>Profile</b></td>
-</tr>
-<tr>
-<td>
-Step ring, stat cards, mood tracker, water tracker, calendar, daily quote
-</td>
-<td>
-Guided exercises, set logger, rest timer, custom builder, live progress
-</td>
-<td>
-Step charts, streak calendar, weight graph, muscle map, records
-</td>
-<td>
-Profile editor, BMI, achievements, themes, settings, backup/export
-</td>
-</tr>
-</table>
+| Screen | Contents |
+|:---|:---|
+| **🏠 Home** | Step ring, stat cards, mood tracker, water tracker, calendar, daily quote |
+| **🏋️ Workout** | Guided exercises, set logger, rest timer, custom builder, live progress |
+| **📊 Progress** | Step charts, streak calendar, weight graph, muscle map, records |
+| **👤 Profile** | Profile editor, BMI, achievements, themes, settings, backup/export |
 
 ---
 
@@ -235,75 +179,30 @@ Profile editor, BMI, achievements, themes, settings, backup/export
 
 FitCore includes **5 complete training programs**, each designed for a specific fitness goal with multiple progression phases:
 
-<table>
-<tr>
-<td align="center" width="20%">
-<br/>
-<h3>🔥</h3>
-<b>Fat Loss</b>
-<br/>
-<code>12 Weeks</code> · <code>3 Days/Week</code>
-<br/><br/>
-<b>Phases:</b>
-<br/>Foundation → Progression → Advanced HIIT
-<br/><br/>
+### 🔥 Fat Loss — 12 Weeks · 3 Days/Week
+**Phases:** Foundation → Progression → Advanced HIIT
+
 Burn fat with progressive cardio + strength circuits. From basic full-body workouts to intense HIIT.
-<br/><br/>
-</td>
-<td align="center" width="20%">
-<br/>
-<h3>💪</h3>
-<b>Muscle Gain</b>
-<br/>
-<code>12 Weeks</code> · <code>4 Days/Week</code>
-<br/><br/>
-<b>Phases:</b>
-<br/>Foundation → Growth → Peak
-<br/><br/>
-Push/Pull/Legs/Core split for maximum muscle activation. Progressive overload built in.
-<br/><br/>
-</td>
-<td align="center" width="20%">
-<br/>
-<h3>🧘</h3>
-<b>Flexibility</b>
-<br/>
-<code>4 Weeks</code> · <code>5 Days/Week</code>
-<br/><br/>
-<b>Format:</b>
-<br/>Morning Flow · Evening Stretch · Full Body · Upper/Lower Focus
-<br/><br/>
+
+### 💪 Muscle Gain — 12 Weeks · 4 Days/Week
+**Phases:** Foundation → Growth → Peak
+
+Push / Pull / Legs / Core split for maximum muscle activation. Progressive overload built in.
+
+### 🧘 Flexibility — 4 Weeks · 5 Days/Week
+**Format:** Morning Flow · Evening Stretch · Full Body · Upper/Lower Focus
+
 30-day mobility challenge to improve posture and range of motion.
-<br/><br/>
-</td>
-<td align="center" width="20%">
-<br/>
-<h3>🏃</h3>
-<b>Stamina</b>
-<br/>
-<code>8 Weeks</code> · <code>3 Days/Week</code>
-<br/><br/>
-<b>Phases:</b>
-<br/>20s/40s → 30s/30s → 40s/20s → Tabata
-<br/><br/>
+
+### 🏃 Stamina — 8 Weeks · 3 Days/Week
+**Phases:** 20s/40s → 30s/30s → 40s/20s → Tabata
+
 HIIT interval progression from beginner pacing to full Tabata protocol.
-<br/><br/>
-</td>
-<td align="center" width="20%">
-<br/>
-<h3>🌱</h3>
-<b>Beginner</b>
-<br/>
-<code>6 Weeks</code> · <code>3 Days/Week</code>
-<br/><br/>
-<b>Phases:</b>
-<br/>Gentle Start → Building → Growing → Stronger → Level Up
-<br/><br/>
+
+### 🌱 Beginner — 6 Weeks · 3 Days/Week
+**Phases:** Gentle Start → Building → Growing → Stronger → Level Up
+
 Start from absolute zero with wall push-ups and chair squats, progress to full bodyweight.
-<br/><br/>
-</td>
-</tr>
-</table>
 
 ---
 
@@ -311,63 +210,14 @@ Start from absolute zero with wall push-ups and chair squats, progress to full b
 
 **45+ bodyweight exercises** across 6 muscle groups, each with detailed instructions, common mistakes, and difficulty ratings:
 
-<table>
-<tr>
-<td>
-
-**🫸 Push** (7 exercises)
-- Push-Up, Knee Push-Up, Diamond Push-Up
-- Pike Push-Up, Wide Push-Up, Decline Push-Up
-- Archer Push-Up, Wall Push-Up, Chair Dip
-
-</td>
-<td>
-
-**🔙 Pull** (4 exercises)
-- Inverted Row, Door Frame Row
-- Superman Hold, Reverse Snow Angel
-
-</td>
-<td>
-
-**🦵 Legs** (8 exercises)
-- Bodyweight Squat, Jump Squat
-- Bulgarian Split Squat, Reverse Lunge
-- Glute Bridge, Single Leg Glute Bridge
-- Wall Sit, Calf Raise, Chair Squat
-
-</td>
-</tr>
-<tr>
-<td>
-
-**🎯 Core** (11 exercises)
-- Plank, Side Plank, Knee Plank
-- Mountain Climber, Bicycle Crunch
-- Leg Raise, Dead Bug, Russian Twist
-- Flutter Kick, L-Sit Hold, Dragon Flag
-
-</td>
-<td>
-
-**❤️‍🔥 Cardio** (7 exercises)
-- Burpee, High Knees, Jump Rope
-- Star Jump, Jumping Jack
-- Lateral Shuffle, Squat Jump
-
-</td>
-<td>
-
-**🧘 Flexibility** (11 exercises)
-- Cat-Cow, Hip Circle, Thoracic Rotation
-- Forward Fold, Hip Flexor Stretch
-- Pigeon Pose, Seated Forward Fold
-- Butterfly Stretch, Chest Stretch
-- Child's Pose, Neck Roll
-
-</td>
-</tr>
-</table>
+| Muscle Group | Exercises |
+|:---|:---|
+| **🫸 Push** (7) | Push-Up, Knee Push-Up, Diamond Push-Up, Pike Push-Up, Wide Push-Up, Decline Push-Up, Archer Push-Up, Wall Push-Up, Chair Dip |
+| **🔙 Pull** (4) | Inverted Row, Door Frame Row, Superman Hold, Reverse Snow Angel |
+| **🦵 Legs** (8) | Bodyweight Squat, Jump Squat, Bulgarian Split Squat, Reverse Lunge, Glute Bridge, Single Leg Glute Bridge, Wall Sit, Calf Raise, Chair Squat |
+| **🎯 Core** (11) | Plank, Side Plank, Knee Plank, Mountain Climber, Bicycle Crunch, Leg Raise, Dead Bug, Russian Twist, Flutter Kick, L-Sit Hold, Dragon Flag |
+| **❤️‍🔥 Cardio** (7) | Burpee, High Knees, Jump Rope, Star Jump, Jumping Jack, Lateral Shuffle, Squat Jump |
+| **🧘 Flexibility** (11) | Cat-Cow, Hip Circle, Thoracic Rotation, Forward Fold, Hip Flexor Stretch, Pigeon Pose, Seated Forward Fold, Butterfly Stretch, Chest Stretch, Child's Pose, Neck Roll |
 
 > Every exercise includes: **step-by-step instructions** · **common mistakes to avoid** · **difficulty rating (1–5)** · **equipment needed** · **calories per rep** · **exercise variations**
 
@@ -375,38 +225,30 @@ Start from absolute zero with wall push-ups and chair squats, progress to full b
 
 ## 🏆 Achievement System
 
-Unlock **20 badges** by hitting milestones. Achievements track across workouts, steps, streaks, and personal records:
+Unlock **20 badges** by hitting milestones across workouts, steps, streaks, and personal records:
 
-<table>
-<tr>
-<td align="center">🏁<br/><b>First Step</b><br/><sub>1st workout</sub></td>
-<td align="center">🔥<br/><b>On a Roll</b><br/><sub>3-day streak</sub></td>
-<td align="center">🔥<br/><b>Week Warrior</b><br/><sub>7-day streak</sub></td>
-<td align="center">🔥<br/><b>Unstoppable</b><br/><sub>30-day streak</sub></td>
-<td align="center">👟<br/><b>10K Steps</b><br/><sub>10,000 in a day</sub></td>
-</tr>
-<tr>
-<td align="center">🚀<br/><b>Road Runner</b><br/><sub>15,000 steps</sub></td>
-<td align="center">🏋️<br/><b>Getting Serious</b><br/><sub>10 workouts</sub></td>
-<td align="center">🏆<br/><b>Quarter Century</b><br/><sub>25 workouts</sub></td>
-<td align="center">🥈<br/><b>Half Century</b><br/><sub>50 workouts</sub></td>
-<td align="center">⭐<br/><b>Centurion</b><br/><sub>100 workouts</sub></td>
-</tr>
-<tr>
-<td align="center">💪<br/><b>Push-Up Pro</b><br/><sub>25 in one set</sub></td>
-<td align="center">👑<br/><b>Push-Up King</b><br/><sub>50 in one set</sub></td>
-<td align="center">🟢<br/><b>Iron Core</b><br/><sub>60s plank</sub></td>
-<td align="center">🥇<br/><b>Steel Core</b><br/><sub>120s plank</sub></td>
-<td align="center">💧<br/><b>Hydrated</b><br/><sub>8 glasses/day</sub></td>
-</tr>
-<tr>
-<td align="center">🔁<br/><b>Rep Machine</b><br/><sub>1,000 total reps</sub></td>
-<td align="center">🔁<br/><b>Rep Monster</b><br/><sub>5,000 total reps</sub></td>
-<td align="center">⚖️<br/><b>Tracking Progress</b><br/><sub>7 weight logs</sub></td>
-<td align="center">🌅<br/><b>Early Bird</b><br/><sub>Workout before 8AM</sub></td>
-<td align="center">✏️<br/><b>My Way</b><br/><sub>Custom workout</sub></td>
-</tr>
-</table>
+| Badge | Requirement |
+|:---|:---|
+| 🏁 **First Step** | Complete your 1st workout |
+| 🔥 **On a Roll** | 3-day streak |
+| 🔥 **Week Warrior** | 7-day streak |
+| 🔥 **Unstoppable** | 30-day streak |
+| 👟 **10K Steps** | 10,000 steps in a day |
+| 🚀 **Road Runner** | 15,000 steps in a day |
+| 🏋️ **Getting Serious** | Complete 10 workouts |
+| 🏆 **Quarter Century** | Complete 25 workouts |
+| 🥈 **Half Century** | Complete 50 workouts |
+| ⭐ **Centurion** | Complete 100 workouts |
+| 💪 **Push-Up Pro** | 25 push-ups in one set |
+| 👑 **Push-Up King** | 50 push-ups in one set |
+| 🟢 **Iron Core** | 60-second plank hold |
+| 🥇 **Steel Core** | 120-second plank hold |
+| 💧 **Hydrated** | Log 8 glasses in a day |
+| 🔁 **Rep Machine** | 1,000 total reps |
+| 🔁 **Rep Monster** | 5,000 total reps |
+| ⚖️ **Tracking Progress** | 7 weight log entries |
+| 🌅 **Early Bird** | Complete a workout before 8 AM |
+| ✏️ **My Way** | Create a custom workout |
 
 ---
 
@@ -414,9 +256,9 @@ Unlock **20 badges** by hitting milestones. Achievements track across workouts, 
 
 Build workout streaks to unlock premium color themes:
 
-| Theme | Streak Required | Primary Color |
+| Theme | Streak Required | Color |
 |:---|:---|:---|
-| 🟣 **Default** | — | `#6C63FF` Indigo |
+| 🟣 **Default** | None | `#6C63FF` Indigo |
 | 🔵 **Ocean Blue** | 7-day streak | `#0077B6` Deep Blue |
 | 🔴 **Ember** | 14-day streak | `#E63946` Crimson |
 | 🟢 **Forest** | 21-day streak | `#2D6A4F` Emerald |
@@ -428,90 +270,40 @@ Build workout streaks to unlock premium color themes:
 
 ## 🔒 Privacy & Data
 
-<table>
-<tr>
-<td width="60">🚫</td>
-<td><b>No Internet Required</b> — The app makes zero network requests. Works in airplane mode.</td>
-</tr>
-<tr>
-<td>🚫</td>
-<td><b>No Account Needed</b> — No sign-up, no email, no phone number. Open the app and start.</td>
-</tr>
-<tr>
-<td>🚫</td>
-<td><b>No Tracking</b> — No analytics, no telemetry, no ad frameworks. Zero third-party data.</td>
-</tr>
-<tr>
-<td>🚫</td>
-<td><b>No Ads</b> — Completely ad-free. No banners, no interstitials, no rewarded ads.</td>
-</tr>
-<tr>
-<td>✅</td>
-<td><b>Local Storage Only</b> — All data stored on-device via AsyncStorage. Nothing leaves your phone.</td>
-</tr>
-<tr>
-<td>✅</td>
-<td><b>Full Data Export</b> — Export everything as CSV spreadsheet or JSON backup at any time.</td>
-</tr>
-<tr>
-<td>✅</td>
-<td><b>Data Reset</b> — One-tap option to completely wipe all app data from your device.</td>
-</tr>
-</table>
+- 🚫 **No Internet Required** — The app makes zero network requests. Works in airplane mode.
+- 🚫 **No Account Needed** — No sign-up, no email, no phone number. Open the app and start.
+- 🚫 **No Tracking** — No analytics, no telemetry, no ad frameworks. Zero third-party data.
+- 🚫 **No Ads** — Completely ad-free. No banners, no interstitials, no rewarded ads.
+- ✅ **Local Storage Only** — All data stored on-device via AsyncStorage. Nothing leaves your phone.
+- ✅ **Full Data Export** — Export everything as CSV spreadsheet or JSON backup at any time.
+- ✅ **Data Reset** — One-tap option to completely wipe all app data from your device.
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
-<table>
-<tr>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/React_Native-0.81.5-61DAFB?style=flat-square&logo=react" />
-<br/><sub>Cross-platform UI</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/Expo_SDK-54-000020?style=flat-square&logo=expo" />
-<br/><sub>Build & deploy</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/Expo_Router-6.x-000020?style=flat-square&logo=expo" />
-<br/><sub>File-based routing</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/Reanimated-4.1-6C63FF?style=flat-square" />
-<br/><sub>Animations</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/AsyncStorage-2.2-43E97B?style=flat-square" />
-<br/><sub>Local persistence</sub>
-</td>
-</tr>
-</table>
-
-### Full Dependency List
-
-| Package | Purpose |
-|:---|:---|
-| `react-native` 0.81.5 | Core mobile framework (New Architecture enabled) |
-| `expo` ~54.0.33 | Managed workflow, build tooling, OTA updates |
-| `expo-router` ~6.0.23 | File-based navigation with tab and stack layouts |
-| `react-native-reanimated` ~4.1.1 | 60fps animations for step ring, transitions |
-| `react-native-gesture-handler` ~2.28.0 | Touch gestures for swipe and press interactions |
-| `react-native-gifted-charts` ^1.4.76 | Bar charts and line charts for progress data |
-| `react-native-svg` 15.12.1 | Vector graphics for step ring and visual elements |
-| `@react-native-async-storage/async-storage` 2.2.0 | Persistent local storage for all app data |
-| `expo-sensors` ~15.0.8 | Pedometer API for step counting |
-| `expo-haptics` ~15.0.8 | Haptic feedback on buttons and interactions |
-| `expo-notifications` ~0.32.16 | Local push notifications for workout reminders |
-| `expo-image-picker` ~17.0.10 | Camera/gallery access for progress photos |
-| `expo-file-system` ~19.0.21 | File operations for backup/export |
-| `expo-sharing` ~14.0.8 | Share exported data files |
-| `expo-linear-gradient` ~15.0.8 | Gradient backgrounds and visual accents |
-| `@expo/vector-icons` ^15.0.3 | Ionicons icon set throughout the UI |
+| Package | Version | Purpose |
+|:---|:---|:---|
+| `react-native` | 0.81.5 | Core mobile framework (New Architecture enabled) |
+| `expo` | ~54.0.33 | Managed workflow, build tooling, OTA updates |
+| `expo-router` | ~6.0.23 | File-based navigation with tab and stack layouts |
+| `react-native-reanimated` | ~4.1.1 | 60fps animations for step ring, transitions |
+| `react-native-gesture-handler` | ~2.28.0 | Touch gestures for swipe and press interactions |
+| `react-native-gifted-charts` | ^1.4.76 | Bar charts and line charts for progress data |
+| `react-native-svg` | 15.12.1 | Vector graphics for step ring and visual elements |
+| `@react-native-async-storage/async-storage` | 2.2.0 | Persistent local storage for all app data |
+| `expo-sensors` | ~15.0.8 | Pedometer API for step counting |
+| `expo-haptics` | ~15.0.8 | Haptic feedback on buttons and interactions |
+| `expo-notifications` | ~0.32.16 | Local push notifications for workout reminders |
+| `expo-image-picker` | ~17.0.10 | Camera/gallery access for progress photos |
+| `expo-file-system` | ~19.0.21 | File operations for backup/export |
+| `expo-sharing` | ~14.0.8 | Share exported data files |
+| `expo-linear-gradient` | ~15.0.8 | Gradient backgrounds and visual accents |
+| `@expo/vector-icons` | ^15.0.3 | Ionicons icon set throughout the UI |
 
 ---
 
-## 🏗 Architecture
+## 🏗️ Architecture
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -532,18 +324,18 @@ Build workout streaks to unlock premium color themes:
 │                       │                              │
 │  ┌────────────────────┴──────────────────────────┐  │
 │  │                 Custom Hooks                   │  │
-│  │  useStepCounter · useWorkout · useStorage     │  │
+│  │  useStepCounter · useWorkout · useStorage      │  │
 │  └────────────────────┬──────────────────────────┘  │
 │                       │                              │
 │  ┌────────────────────┴──────────────────────────┐  │
 │  │              Utilities & Data                  │  │
-│  │  progress · calories · notifications · export │  │
-│  │  exercises (45+) · programs (5) · themes (7)  │  │
+│  │  progress · calories · notifications · export  │  │
+│  │  exercises (45+) · programs (5) · themes (7)   │  │
 │  └────────────────────┬──────────────────────────┘  │
 │                       │                              │
 │  ┌────────────────────┴──────────────────────────┐  │
 │  │          AsyncStorage (Local Only)             │  │
-│  │  Profile · Workouts · Steps · Settings · etc. │  │
+│  │  Profile · Workouts · Steps · Settings · etc.  │  │
 │  └───────────────────────────────────────────────┘  │
 │                                                      │
 └─────────────────────────────────────────────────────┘
@@ -554,13 +346,13 @@ Build workout streaks to unlock premium color themes:
 ```
 App Launch
   │
-  ├── First Launch ──→ Onboarding (4 steps)
+  ├── First Launch ──> Onboarding (4 steps)
   │                     ├── 1. Welcome Screen
   │                     ├── 2. Goal Selection
   │                     ├── 3. Fitness Level
-  │                     └── 4. Profile Details ──→ Home
+  │                     └── 4. Profile Details ──> Home
   │
-  └── Returning User ──→ Tab Navigator
+  └── Returning User ──> Tab Navigator
                           ├── 🏠 Home
                           ├── 🏋️ Workout
                           ├── 📊 Progress
@@ -573,7 +365,7 @@ App Launch
 
 ### Prerequisites
 
-- **Node.js** ≥ 18.x
+- **Node.js** >= 18.x
 - **npm** or **yarn**
 - **Expo CLI** (`npx expo`)
 - **Android device** or **emulator** (for step tracking)
@@ -617,10 +409,10 @@ fitcore/
 │   ├── onboarding.js             # 4-step onboarding flow
 │   └── (tabs)/                   # Tab navigator
 │       ├── _layout.js            # Tab bar configuration
-│       ├── index.js              # 🏠 Home dashboard
-│       ├── workout.js            # 🏋️ Workout engine + custom builder
-│       ├── progress.js           # 📊 Analytics & tracking
-│       └── profile.js            # 👤 Settings & achievements
+│       ├── index.js              # Home dashboard
+│       ├── workout.js            # Workout engine + custom builder
+│       ├── progress.js           # Analytics & tracking
+│       └── profile.js            # Settings & achievements
 │
 ├── components/                   # 24 reusable UI components
 │   ├── StepRing.js               # Animated circular step progress
@@ -676,7 +468,7 @@ fitcore/
 │   └── feature-graphic.png       # Play Store feature graphic
 │
 ├── assets/                       # App icons & splash screen
-│   ├── icon.png                  # App icon (1024×1024)
+│   ├── icon.png                  # App icon (1024x1024)
 │   ├── adaptive-icon.png         # Android adaptive icon
 │   ├── splash-icon.png           # Splash screen icon
 │   └── favicon.png               # Web favicon
@@ -694,32 +486,28 @@ fitcore/
 ### Development Build
 
 ```bash
-# Create development build
 npx eas build --profile development --platform android
 ```
 
 ### Preview APK
 
 ```bash
-# Build APK for testing
 npx eas build --profile preview --platform android
 ```
 
 ### Production Build
 
 ```bash
-# Build AAB for Play Store
 npx eas build --profile production --platform android
 ```
 
 ### Submit to Play Store
 
 ```bash
-# Submit to Google Play
 npx eas submit --platform android
 ```
 
-### Build Profiles (eas.json)
+### Build Profiles
 
 | Profile | Output | Distribution | Use Case |
 |:---|:---|:---|:---|
@@ -729,35 +517,37 @@ npx eas submit --platform android
 
 ---
 
-## 📊 Design System
+## 🎨 Design System
 
 FitCore uses a carefully crafted dark-mode design system:
 
-```
-Colors
-───────────────────────────────
-Background    #0A0A0F    ██
-Surface       #13131A    ██
-Surface 2     #1C1C26    ██
-Primary       #6C63FF    ██
-Primary Light #8B85FF    ██
-Secondary     #FF6584    ██
-Success       #43E97B    ██
-Warning       #FFB347    ██
-Text          #FFFFFF    ██
-Text Muted    #8888AA    ██
-Border        #2A2A3A    ██
-Gold          #FFD700    ██
+### Colors
 
-Spacing                  Radius
-──────────               ──────────
-xs:  4px                 card:   16px
-sm:  8px                 button: 12px
-md: 16px                 pill:   50px
-lg: 24px
-xl: 32px
-xxl: 48px
-```
+| Token | Hex | Use |
+|:---|:---|:---|
+| Background | `#0A0A0F` | App background |
+| Surface | `#13131A` | Card backgrounds |
+| Surface 2 | `#1C1C26` | Elevated surfaces |
+| Primary | `#6C63FF` | Buttons, accents |
+| Primary Light | `#8B85FF` | Hover states |
+| Secondary | `#FF6584` | Highlights |
+| Success | `#43E97B` | Positive states |
+| Warning | `#FFB347` | Caution states |
+| Text | `#FFFFFF` | Primary text |
+| Text Muted | `#8888AA` | Secondary text |
+| Border | `#2A2A3A` | Dividers |
+| Gold | `#FFD700` | Achievements |
+
+### Spacing & Radius
+
+| Spacing | Value | Radius | Value |
+|:---|:---|:---|:---|
+| `xs` | 4px | Card | 16px |
+| `sm` | 8px | Button | 12px |
+| `md` | 16px | Pill | 50px |
+| `lg` | 24px | | |
+| `xl` | 32px | | |
+| `xxl` | 48px | | |
 
 ---
 
@@ -773,8 +563,8 @@ xxl: 48px
 
 ## 📬 Contact
 
-**Developer:** Daivik Reddy  
-**Email:** daivikreddy@gmail.com  
+**Developer:** Daivik Reddy
+**Email:** daivikreddy@gmail.com
 **Organization:** daivikexes-organization
 
 ---
@@ -783,7 +573,7 @@ xxl: 48px
 
 ### 📥 Download FitCore
 
-[<img src="https://img.shields.io/badge/⬇_DOWNLOAD_LATEST_APK-6C63FF?style=for-the-badge" alt="Download" height="48" />](https://expo.dev/accounts/daivikexes-organization/projects/fitcore/builds/220f1229-623c-4a15-a02a-ab13e03ce632)
+[<img src="https://img.shields.io/badge/⬇_DOWNLOAD_LATEST_APK-6C63FF?style=for-the-badge" alt="Download Latest APK" height="48" />](https://expo.dev/accounts/daivikexes-organization/projects/fitcore/builds/220f1229-623c-4a15-a02a-ab13e03ce632)
 
 <br/>
 
@@ -796,4 +586,3 @@ Built with ❤️ in India
 <sub>FitCore v1.0.0 · © 2026 Daivik Reddy · All rights reserved</sub>
 
 </div>
-]]>
